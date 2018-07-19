@@ -1,0 +1,1 @@
+Python is /an interpreted high-level progr/amming l/angu/age for gener/al-purpose progr/amming. Cre/ated by Guido v/an Rossum /and first rele/ased in 1991, Python h/as /a design philosophy th/at emph/asizes code re/ad/ability, not/ably using signific/ant whitesp/ace. It provides constructs th/at en/able cle/ar progr/amming on both sm/all /and l/arge sc/ales.
