@@ -10,3 +10,4 @@ month_dict = {1: 'January', 2: 'February', 3: 'March', 4: 'April', 5: 'May', 6: 
 
 month = month_dict[int(dte[1])]
 print day, month, "20"+year
+print day
