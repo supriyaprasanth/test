@@ -11,3 +11,5 @@ print("The IP Address is:" + IPAddr)
 #to disp the cur date and time
 now = datetime.datetime.now()
 print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
+print('\n');

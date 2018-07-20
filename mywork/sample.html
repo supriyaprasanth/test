@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+function check(){
+
+var x=document.getElementById("money").value;
+x=x.toString();
+x = x.replace("/\D",'');
+var lastThree = x.substring(x.length-3);
+//alert("the last three is"+lastThree);
+var otherNumbers = x.substring(0,x.length-3);
+if(otherNumbers != '')
+    lastThree = ',' + lastThree;
+var res = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
+
+alert(res);
+}
+</script>
+</head>
+<body>
+<form name="form"  onsubmit="return check()">
+Enter the money<input type="text" name="money" id="money">
+</form>
+Correct format:
+</body>
+</html>

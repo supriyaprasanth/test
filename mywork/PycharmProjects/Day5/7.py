@@ -1,0 +1,10 @@
+file = open("abc.txt","r+")
+nwfile=open("abc2.txt","r+")
+print(file.read())
+line=file.readlines()
+for i in line:
+    i=i.replace('"','\\"')
+    nwfile.write(i)
+print(nwfile.read())
+nwfile.close()
+file.close()
